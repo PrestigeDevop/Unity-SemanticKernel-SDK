@@ -3,7 +3,6 @@
 
 
 
-![image](https://github.com/PrestigeDevop/Unity-SemanticKernel-SDK/assets/85388342/bc9b6b45-00c3-4d00-96a8-f64365d52835)
 
 it's just a simple copy past dlls for all individual 2.0 and 2.1 standard API so don't expect full support or successful deployment / runtime useage 
 

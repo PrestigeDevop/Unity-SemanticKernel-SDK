@@ -1,0 +1,10 @@
+F:\Unity Projects\SemanticKernel.Connectors.OnnxRuntimeGenAI-main\obj\Debug\netstandard2.1\Connectors.OnnxRuntimeGenAI.csproj.AssemblyReference.cache
+F:\Unity Projects\SemanticKernel.Connectors.OnnxRuntimeGenAI-main\obj\Debug\netstandard2.1\Connectors.OnnxRuntimeGenAI.GeneratedMSBuildEditorConfig.editorconfig
+F:\Unity Projects\SemanticKernel.Connectors.OnnxRuntimeGenAI-main\obj\Debug\netstandard2.1\Connectors.OnnxRuntimeGenAI.AssemblyInfoInputs.cache
+F:\Unity Projects\SemanticKernel.Connectors.OnnxRuntimeGenAI-main\obj\Debug\netstandard2.1\Connectors.OnnxRuntimeGenAI.AssemblyInfo.cs
+F:\Unity Projects\SemanticKernel.Connectors.OnnxRuntimeGenAI-main\obj\Debug\netstandard2.1\Connectors.OnnxRuntimeGenAI.csproj.CoreCompileInputs.cache
+F:\Unity Projects\SemanticKernel.Connectors.OnnxRuntimeGenAI-main\bin\Debug\netstandard2.1\unity.SemanticKernel.Connectors.OnnxRuntimeGenAI.deps.json
+F:\Unity Projects\SemanticKernel.Connectors.OnnxRuntimeGenAI-main\bin\Debug\netstandard2.1\unity.SemanticKernel.Connectors.OnnxRuntimeGenAI.dll
+F:\Unity Projects\SemanticKernel.Connectors.OnnxRuntimeGenAI-main\bin\Debug\netstandard2.1\unity.SemanticKernel.Connectors.OnnxRuntimeGenAI.pdb
+F:\Unity Projects\SemanticKernel.Connectors.OnnxRuntimeGenAI-main\obj\Debug\netstandard2.1\unity.SemanticKernel.Connectors.OnnxRuntimeGenAI.dll
+F:\Unity Projects\SemanticKernel.Connectors.OnnxRuntimeGenAI-main\obj\Debug\netstandard2.1\unity.SemanticKernel.Connectors.OnnxRuntimeGenAI.pdb

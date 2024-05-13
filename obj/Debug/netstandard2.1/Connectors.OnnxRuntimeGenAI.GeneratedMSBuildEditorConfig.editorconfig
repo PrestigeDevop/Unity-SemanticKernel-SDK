@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = unity.SemanticKernel.Connectors.OnnxRuntimeGenAI
+build_property.ProjectDir = F:\Unity Projects\SemanticKernel.Connectors.OnnxRuntimeGenAI-main\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

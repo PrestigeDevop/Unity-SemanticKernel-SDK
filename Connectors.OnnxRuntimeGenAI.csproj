@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>unity.SemanticKernel.Connectors.OnnxRuntimeGenAI</AssemblyName>
+    <RootNamespace>$(AssemblyName)</RootNamespace>
+    <TargetFramework>netstandard2.1</TargetFramework>
+     
+    <Configurations>Debug;Release;Debug_Cuda;Release_Cuda;</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!-- NuGet Package Settings -->
+    <Title>Semantic Kernel-Microsoft.ML.OnnxRuntimeGenAI connectors</Title>
+    <Description>Semantic Kernel connector for Microsoft.ML.OnnxRuntimeGenAI.</Description>
+    <UserSecretsId>76437cfb-f6e2-4a76-929d-5863befe3cfc</UserSecretsId>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML.OnnxRuntimeGenAI" Version="0.2.0-rc4" Condition=" '$(Configuration)' == 'Debug' OR '$(Configuration)' == 'Release' " />
+    <PackageReference Include="Microsoft.ML.OnnxRuntimeGenAI.Cuda" Version="0.2.0-rc4" Condition=" '$(Configuration)' == 'Debug_Cuda' OR '$(Configuration)' == 'Release_Cuda' " />
+    <PackageReference Include="Microsoft.SemanticKernel.Core" Version="1.10.0" />
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Compile Update="OnnxRuntimeGenAIChatCompletionService.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CustomToolNamespace></CustomToolNamespace>
+    </Compile>
+    <Compile Update="OnnxRuntimeGenAIKernelBuilderExtensions.cs">
+      <CustomToolNamespace></CustomToolNamespace>
+    </Compile>
+    <Compile Update="OnnxRuntimeGenAIPromptExecutionSettings.cs">
+      <CustomToolNamespace></CustomToolNamespace>
+    </Compile>
+    <Compile Update="OnnxRuntimeGenAIServiceCollectionExtensions.cs">
+      <CustomToolNamespace></CustomToolNamespace>
+    </Compile>
+  </ItemGroup>
+
+</Project>
